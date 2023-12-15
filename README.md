@@ -1,4 +1,4 @@
-# FFMPEG Library for Android
+! FFMPEG Library for Android
 
 This project is a Java wrapper around an ffmpeg command line binary for use in
 Android applications.  It depends on the
@@ -10,7 +10,7 @@ however, we strongly recommend you compile them yourselves using the steps below
 
 It is licensed under the GPLv3.
 
-## Building
+*# Building
 
 Ensure `NDK_BASE` env variable is set to the location of your NDK, example:
 
@@ -30,3 +30,4 @@ external/android-ffmpeg/data/data/info.guardianproject.ffmpeg/app_opt/bin/sox
 You should replace the files in res/raw with these.
 
 Then build the project in Eclipse.
+ 
