@@ -1,33 +1,11 @@
-! FFMPEG Library for Android
+### 题目：PI（2014级陈飞宇大神挖坑）
 
-This project is a Java wrapper around an ffmpeg command line binary for use in
-Android applications.  It depends on the
-[android-ffmpeg](https://github.com/guardianproject/android-ffmpeg) project to
-provide the ffmpeg binary.
+### 要求：
 
-For ease of developer use, we've included the FFMPEG and Sox binaries in the project,
-however, we strongly recommend you compile them yourselves using the steps below.
+1. 计算PI，精度>1万位（够黑啊！）
+1. 打印总时间
+1. 打印内存消耗的最大值
 
-It is licensed under the GPLv3.
+### 参考：
 
-*# Building
-
-Ensure `NDK_BASE` env variable is set to the location of your NDK, example:
-
-    export NDK_BASE=/path/to/android-ndk
-
-Then execute:
-
-    git submodule update --init --recursive
-    cd external/android-ffmpeg
-    ./configure_make_everything.sh
-
-Once compiled, you will find the binaries at:
-
-external/android-ffmpeg/ffmpeg/ffmpeg
-external/android-ffmpeg/data/data/info.guardianproject.ffmpeg/app_opt/bin/sox
-
-You should replace the files in res/raw with these.
-
-Then build the project in Eclipse.
- 
+[2014级柱神作品](https://github.com/holdzhu/uestc2015ccpp/tree/master/Pi) （做完本题后再看啊！！！）
